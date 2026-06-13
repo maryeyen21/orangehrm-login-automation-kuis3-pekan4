@@ -1,23 +1,41 @@
-# OrangeHRM Login Automation
+# OrangeHRM Automation Project --PROYEK AKHIR
 
-Automation Testing menggunakan Cypress pada fitur Login OrangeHRM.
+Automation testing menggunakan Cypress dengan konsep Page Object Model (POM) dan Intercept.
 
-## Test Cases
+## Features Tested
 
-1. Login dengan username dan password valid
-2. Login dengan username valid dan password invalid
-3. Login dengan username invalid dan password valid
-4. Login dengan username kosong
-5. Login dengan password kosong
-6. Login dengan username dan password kosong
-7. Verifikasi URL dashboard setelah login berhasil
-8. Logout setelah login berhasil
+### 1. Login
+- 8 Test Cases
+- Valid login
+- Invalid login
+- Empty validation
+- Dashboard verification
+- Logout
 
-## Hasil Testing
+### 2. Directory
+- 8 Test Cases
+- Open directory
+- Search employee
+- Reset search
+- Employee card verification
 
-8 Passing
-0 Failing
+### 3. Recruitment
+- 8 Test Cases
+- Open recruitment
+- Search candidate
+- Reset search
+- Candidate table verification
 
-## Repository
 
-https://github.com/maryeyen21/orangehrm-login-automation-kuis3-pekan4
+## Tools
+- Cypress
+- JavaScript
+- Page Object Model
+- Intercept
+
+
+## Result
+
+Login : 8 Passing  
+Directory : 8 Passing  
+Recruitment : 8 Passing
