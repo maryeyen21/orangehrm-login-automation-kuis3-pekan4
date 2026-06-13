@@ -40,25 +40,26 @@ Login : 8 Passing
 Directory : 8 Passing  
 Recruitment : 8 Passing
 
-## Struktur Folder
+
 Berikut adalah Struktur file yang saya gunakan dalam pengerjaan proyek akhir:
 
+```text
 cypress
-│
 ├── e2e
-│ └── project-akhir
-│ ├── login.cy.js
-│ ├── directory.cy.js
-│ └── recruitment.cy.js
+│   └── project-akhir
+│       ├── login.cy.js
+│       ├── directory.cy.js
+│       └── recruitment.cy.js
 │
 ├── fixtures
-│ └── orangehrmData.json
+│   └── orangehrmData.json
 │
 ├── pages
-│ ├── AuthPage.js
-│ ├── DirectoryPage.js
-│ └── RecruitmentPage.js
+│   ├── AuthPage.js
+│   ├── DirectoryPage.js
+│   └── RecruitmentPage.js
 │
 ├── screenshots
 │
 └── support
+```
